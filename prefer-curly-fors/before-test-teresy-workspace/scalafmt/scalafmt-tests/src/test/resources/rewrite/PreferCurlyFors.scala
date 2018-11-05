@@ -1,5 +1,5 @@
 object a {
-  for(a <- as; b <- bs if b > 2) {
+  for (a <- as; b <- bs if b > 2) {
     println(a + b)
   }
 }
@@ -15,10 +15,8 @@ object a {
 }
 
 object a {
-  for (
-    a <- as;
-    b <- bs
-  ) {
+  for (a <- as;
+       b <- bs) {
     println(a + b)
   }
 }
